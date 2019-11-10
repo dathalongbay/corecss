@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .A #B {
+            color: red;
+        }
+
+        #C .D {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selector id lồng class</h1>
+    <h1>Selector class lồng id</h1>
+
+    <pre>
+        id chứa class : #ID .class
+        class chứa id : .class #ID
+    </pre>
+
+    <div class="A">
+        <p id="B">DEMO id nằm trong class</p>
+    </div>
+
+    <div id="C">
+        <p class="D">DEMO class nằm trong id</p>
+    </div>
+
+</body>
+</html>

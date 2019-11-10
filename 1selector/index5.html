@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style type="text/css">
+        .classA .classB {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selector class lồng class</h1>
+    <pre>
+        cú pháp : .classA .classB ( chọn thẻ có classB nằm trong classA )
+    </pre>
+
+    <div class="classA">
+        <p class="classB">Thẻ p số 1</p>
+        <p class="classB">Thẻ p số 2</p>
+        <p class="classB">Thẻ p số 3</p>
+        <p class="classC">Thẻ p số 4</p>
+        <p class="classD">Thẻ p số 5</p>
+    </div>
+
+    <p class="classB">Thẻ p số 6</p>
+</body>
+</html>
